@@ -6,7 +6,7 @@
 #include <math.h>
 #include <utility>
 #include <vector>
-#include "VECTOR3D.h"
+#include "helper/VECTOR3D.h"
 
 #include "QuadMesh.h"
 

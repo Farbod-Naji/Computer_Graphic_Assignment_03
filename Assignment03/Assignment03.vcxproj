@@ -171,12 +171,18 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Classes\Gun.cpp" />
+    <ClCompile Include="Source\Classes\RobotLight.cpp" />
+    <ClCompile Include="Source\Classes\Level.cpp" />
     <ClCompile Include="Source\main.cpp" />
-    <ClCompile Include="Source\QuadMesh.cpp" />
+    <ClCompile Include="Source\Helper\QuadMesh.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\QuadMesh.h" />
-    <ClInclude Include="Source\VECTOR3D.h" />
+    <ClInclude Include="Source\Classes\Gun.h" />
+    <ClInclude Include="Source\Classes\RobotLight.h" />
+    <ClInclude Include="Source\Classes\Level.h" />
+    <ClInclude Include="Source\Helper\QuadMesh.h" />
+    <ClInclude Include="Source\Helper\VECTOR3D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

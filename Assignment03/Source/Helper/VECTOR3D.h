@@ -15,6 +15,7 @@
 
 #ifndef VECTOR3D_H
 #define VECTOR3D_H
+#include <math.h>
 
 class VECTOR3D
 {
